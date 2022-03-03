@@ -12,6 +12,7 @@
 		7648C81C27CDCC510071CD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7648C81B27CDCC510071CD02 /* Assets.xcassets */; };
 		7648C81F27CDCC510071CD02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7648C81E27CDCC510071CD02 /* Preview Assets.xcassets */; };
 		7648C82727CF2A670071CD02 /* ListOnDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648C82627CF2A670071CD02 /* ListOnDelete.swift */; };
+		7648C82927CF764F0071CD02 /* PlaygroundUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648C82827CF764F0071CD02 /* PlaygroundUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7648C81B27CDCC510071CD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7648C81E27CDCC510071CD02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7648C82627CF2A670071CD02 /* ListOnDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOnDelete.swift; sourceTree = "<group>"; };
+		7648C82827CF764F0071CD02 /* PlaygroundUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				7648C81927CDCC4E0071CD02 /* ShowHideViews_Screens.swift */,
 				7648C82627CF2A670071CD02 /* ListOnDelete.swift */,
+				7648C82827CF764F0071CD02 /* PlaygroundUserDefaults.swift */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				7648C81A27CDCC4E0071CD02 /* ShowHideViews_Screens.swift in Sources */,
 				7648C81827CDCC4E0071CD02 /* iExpenseApp.swift in Sources */,
 				7648C82727CF2A670071CD02 /* ListOnDelete.swift in Sources */,
+				7648C82927CF764F0071CD02 /* PlaygroundUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
