@@ -18,6 +18,7 @@
 		7648C82B27D0C8F10071CD02 /* ArchivingSwiftObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648C82A27D0C8F10071CD02 /* ArchivingSwiftObjects.swift */; };
 		7648C82D27D0CD110071CD02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648C82C27D0CD110071CD02 /* ContentView.swift */; };
 		76E7238B27D3E2800009711B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7238A27D3E2800009711B /* ExpenseItem.swift */; };
+		F99B4B7B288C2D2E00598B53 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B4B7A288C2D2E00598B53 /* ExpenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7648C82A27D0C8F10071CD02 /* ArchivingSwiftObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivingSwiftObjects.swift; sourceTree = "<group>"; };
 		7648C82C27D0CD110071CD02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76E7238A27D3E2800009711B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		F99B4B7A288C2D2E00598B53 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				7648C81727CDCC4E0071CD02 /* iExpenseApp.swift */,
 				7648C82C27D0CD110071CD02 /* ContentView.swift */,
+				F99B4B7A288C2D2E00598B53 /* ExpenseView.swift */,
 				7624DC1F27D3E5C800960311 /* Expenses.swift */,
 				76E7238A27D3E2800009711B /* ExpenseItem.swift */,
 				7624DC2127D3EBE300960311 /* AddExpenseView.swift */,
@@ -171,6 +174,7 @@
 				7648C82B27D0C8F10071CD02 /* ArchivingSwiftObjects.swift in Sources */,
 				7648C81A27CDCC4E0071CD02 /* ShowHideViews_Screens.swift in Sources */,
 				7648C82D27D0CD110071CD02 /* ContentView.swift in Sources */,
+				F99B4B7B288C2D2E00598B53 /* ExpenseView.swift in Sources */,
 				7624DC2027D3E5C800960311 /* Expenses.swift in Sources */,
 				7648C81827CDCC4E0071CD02 /* iExpenseApp.swift in Sources */,
 				7648C82727CF2A670071CD02 /* ListOnDelete.swift in Sources */,
@@ -305,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = E2D87XL9X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -333,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = E2D87XL9X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

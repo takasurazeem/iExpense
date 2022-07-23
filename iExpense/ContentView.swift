@@ -18,13 +18,7 @@ struct ContentView: View {
                 if expesnes.personalExpenses.count > 0 {
                     Section("Personal") {
                         ForEach(expesnes.personalExpenses) { item in
-                            HStack {
-                                Text(item.name)
-                                    .font(.headline)
-                                Spacer()
-                                Text(item.amount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
-                                    .foregroundColor(expesnes.colorForExpense(amount: item.amount))
-                            }
+                            ExpenseView(expense: item)
                         }
                         .onDelete(perform: removePersonalExpense(at:))
                     }
@@ -32,13 +26,7 @@ struct ContentView: View {
                 if expesnes.businessExpenses.count > 0 {
                     Section("Business") {
                         ForEach(expesnes.businessExpenses) { item in
-                            HStack {
-                                Text(item.name)
-                                    .font(.headline)
-                                Spacer()
-                                Text(item.amount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
-                                    .foregroundColor(expesnes.colorForExpense(amount: item.amount))
-                            }
+                            ExpenseView(expense: item)
                         }
                         .onDelete(perform: removeBusinessExpense(at:))
                     }

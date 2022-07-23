@@ -37,16 +37,6 @@ class Expenses: ObservableObject {
             }
         }
     }
-    
-    func colorForExpense(amount: Double) -> Color {
-        switch amount {
-        case 0.0..<10.0:
-            return .green
-        case 10.0..<100.0:
-            return .orange
-        default:
-            return .red
-        }
-    }
+
     
 }
